@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "094faa0e-7fab-4732-a60a-e28af7fad355",
 		"name": "User",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
@@ -10,16 +10,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
-					"raw": "{{api_url}}/user/get",
-					"host": [
-						"{{api_url}}"
-					],
-					"path": [
-						"user",
-						"get"
-					]
-				}
+				"url": "{{api_url}}/user/get"
 			},
 			"response": []
 		},
@@ -51,12 +42,12 @@
 					"urlencoded": [
 						{
 							"key": "username",
-							"value": "hardik",
+							"value": "{{username}}",
 							"type": "default"
 						},
 						{
 							"key": "email",
-							"value": "hardik@xyz.com",
+							"value": "{{email}}",
 							"type": "default"
 						},
 						{
@@ -66,16 +57,7 @@
 						}
 					]
 				},
-				"url": {
-					"raw": "{{api_url}}/user/create",
-					"host": [
-						"{{api_url}}"
-					],
-					"path": [
-						"user",
-						"create"
-					]
-				}
+				"url": "{{api_url}}/user/create"
 			},
 			"response": []
 		}

@@ -9,12 +9,3 @@ jobs:
       - newman/newman-run:
           collection: ./User.postman_collection.json
           environment: ./My_Workspace.postman_globals.json
-      - newman/newman-run:
-          collection: ./User.postman_collection.json
-          environment: ./My_Workspace.postman_globals.json
-      - newman/newman-run:
-          collection: ./User.postman_collection.json
-          environment: ./My_Workspace.postman_globals.json
-      - newman/newman-run:
-          collection: ./User.postman_collection.json
-          environment: ./My_Workspace.postman_globals.json
