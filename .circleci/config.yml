@@ -7,5 +7,5 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: ./User.postman_collection.json
+          collection: https://www.getpostman.com/collections/93a2210e23b5ac549632
           environment: ./My_Workspace.postman_globals.json
